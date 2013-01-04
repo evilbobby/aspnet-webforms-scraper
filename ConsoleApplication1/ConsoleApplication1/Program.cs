@@ -44,7 +44,7 @@ namespace ConsoleApplication1
 
 
 
-            Console.WriteLine("\nPosting 'red' to " + url); 
+            Console.WriteLine("\nPosting to " + url); 
             HttpWebResponse res = (HttpWebResponse)req.GetResponse(); // send request, get response
 
             Console.WriteLine("\nResponse stream is: \n");
